@@ -1,0 +1,172 @@
+*{
+   padding: 0;
+   margin: 0;
+   font-family: 'Roboto Condensed', sans-serif;
+   box-sizing: border-box;
+
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    
+    background-color: black ;
+   
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.hero nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    padding-top: 45px;
+    padding-left: 9%;
+    padding-right: 9%;
+    background-color: blue;
+
+
+}
+
+/* .avatar img {
+        display: block ;
+        width: 100% ;
+        object-fit: cover ; } */
+        
+        
+     
+
+
+.logo {
+    color: white ;
+    font-size: 35px ;
+    letter-spacing: 1px ;
+    cursor: pointer;
+    
+}
+
+span {
+   color: green;
+
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+
+
+}
+
+nav ul li a {
+  color: red;
+  text-decoration: none;
+  font-weight: bold ;
+  text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color:blueviolet ;
+    transition: .3s;
+}
+
+.price {
+    color: darkblue;
+}
+
+.price_total {
+    color: darkgreen;
+}
+
+.price_month {
+    color: palevioletred;
+}
+
+
+
+
+/* .picc img {
+    background-color: palevioletred;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent ;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px ;
+    transition: transform .4s;
+     
+} */ 
+
+
+.content {
+    background-color: lightskyblue;
+    border: 1px  ;
+    box-shadow: 10px 10px;
+    padding: 0;
+    margin: 0;
+    width: 400px;
+    height: 400px;
+    margin: 100px auto;
+    position: relative;
+
+}
+
+.content span {
+    color: darkmagenta;
+    font-size: large;
+}
+
+.cent {
+    text-align: center;
+}
+
+footer {
+    background-color: burlywood;
+    height: auto ;
+    width: 100vw ;
+    padding-top: 40px ;
+    color: lightseagreen ;
+}
+
+.footer-content {
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: burlywood
+}
+
+
+.social li {
+    list-style: none;
+}
+
+.footer-bottom {
+
+    background-color: lightgoldenrodyellow ;
+    align-items: center;
+    justify-content: center;
+    display: flex ;
+    flex-direction: column;
+ 
+}
+.div_table {
+    text-align: center;
+}
+
+.div_table table {
+    border-collapse: separate;
+    border-spacing: 0 4px;
+  }
+
+  .hh2 {
+    text-indent: 40px;
+  }
+
+ 
